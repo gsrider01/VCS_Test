@@ -1,0 +1,239 @@
+﻿Version =20
+VersionRequired =20
+Begin Form
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =8884
+    DatasheetFontHeight =11
+    ItemSuffix =6
+    Right =50000
+    Bottom =50000
+    RecSrcDt = Begin
+        0xfc8ea6805290e640
+    End
+    DatasheetFontName ="Calibri"
+    FilterOnLoad =0
+    ShowPageMargins =0
+    DisplayOnSharePointSite =1
+    DatasheetAlternateBackColor =15921906
+    DatasheetGridlinesColor12 =0
+    FitToScreen =1
+    DatasheetBackThemeColorIndex =1
+    BorderThemeColorIndex =3
+    ThemeFontIndex =1
+    ForeThemeColorIndex =0
+    AlternateBackThemeColorIndex =1
+    AlternateBackShade =95.0
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =0
+            BorderTint =50.0
+            ForeThemeColorIndex =0
+            ForeTint =60.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin CommandButton
+            FontSize =11
+            FontWeight =400
+            FontName ="Calibri"
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            UseTheme =1
+            Shape =1
+            Gradient =12
+            BackThemeColorIndex =4
+            BackTint =60.0
+            BorderLineStyle =0
+            BorderThemeColorIndex =4
+            BorderTint =60.0
+            ThemeFontIndex =1
+            HoverThemeColorIndex =4
+            HoverTint =40.0
+            PressedThemeColorIndex =4
+            PressedShade =75.0
+            HoverForeThemeColorIndex =0
+            HoverForeTint =75.0
+            PressedForeThemeColorIndex =0
+            PressedForeTint =75.0
+        End
+        Begin TextBox
+            AddColon = NotDefault
+            FELineBreak = NotDefault
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            AsianLineBreak =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ThemeFontIndex =1
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Section
+            Height =7560
+            Name ="Detail"
+            AutoHeight =1
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =2280
+                    Top =1020
+                    Height =300
+                    Name ="Text0"
+
+                    LayoutCachedLeft =2280
+                    LayoutCachedTop =1020
+                    LayoutCachedWidth =3720
+                    LayoutCachedHeight =1320
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =480
+                            Top =1020
+                            Width =550
+                            Height =300
+                            Name ="Label1"
+                            Caption ="Text0"
+                            LayoutCachedLeft =480
+                            LayoutCachedTop =1020
+                            LayoutCachedWidth =1030
+                            LayoutCachedHeight =1320
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =2340
+                    Top =1560
+                    Height =300
+                    TabIndex =1
+                    Name ="Text2"
+
+                    LayoutCachedLeft =2340
+                    LayoutCachedTop =1560
+                    LayoutCachedWidth =3780
+                    LayoutCachedHeight =1860
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =540
+                            Top =1560
+                            Width =550
+                            Height =300
+                            Name ="Label3"
+                            Caption ="Text2"
+                            LayoutCachedLeft =540
+                            LayoutCachedTop =1560
+                            LayoutCachedWidth =1090
+                            LayoutCachedHeight =1860
+                        End
+                    End
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =2520
+                    Top =2520
+                    Width =2276
+                    Height =576
+                    TabIndex =2
+                    Name ="Command4"
+                    Caption ="Command4"
+                    OnClick ="[Event Procedure]"
+                    ControlTipText ="Find Next"
+                    ImageData = Begin
+                        0x2800000010000000100000000100200000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000b17d4a3cb17d4af2b17d4aff ,
+                        0xb17d4a8b00000000000000000000000000000000000000000000000000000000 ,
+                        0x000000000000000000000000000000000000000000000000b17d4a3cb17d4af2 ,
+                        0xb17d4affb17d4a7e000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000b17d4a0fb17d4affb17d4affb17d4affb17d4affb17d4aff ,
+                        0xb17d4affb17d4affb17d4a5bb17d4aefb17d4a79000000000000000000000000 ,
+                        0x0000000000000000b17d4a0fb17d4affb17d4affb17d4affb17d4affb17d4aff ,
+                        0xb17d4affb17d4affb17d4aeab17d4affb17d4affb17d4a99b17d4a0400000000 ,
+                        0x000000000000000000000000000000000000000000000000b17d4a3cb17d4af3 ,
+                        0xb17d4affb17d4a7db17d4a41b17d4af1b17d4affb17d4affb17d4ab6b17d4a0c ,
+                        0x0000000000000000000000000000000000000000b17d4a3cb17d4af3b17d4aff ,
+                        0xb17d4a8a0000000000000000b17d4a2eb17d4ae6b17d4affb17d4affb17d4ace ,
+                        0xb17d4a7db17d4adcb17d4afbb17d4adcb17d4a81b17d4a090000000000000000 ,
+                        0x00000000000000000000000000000000b17d4a1fb17d4ad7b17d4affb17d4aff ,
+                        0xb27f4cfccdac8cf6dcc4adffcdac8bf6b27f4cfcb17d4ac5b17d4a0a00000000 ,
+                        0x0000000000000000000000000000000000000000b17d4a12b17d4ad6b17e4bfd ,
+                        0xebded1ffffffffffffffffffffffffffebded2ffb17e4bfdb17d4a8100000000 ,
+                        0x000000000000000000000000000000000000000000000000b17d4adbcdab8bf7 ,
+                        0xffffffffffffffffffffffffffffffffffffffffcdab8bf7b17d4ade00000000 ,
+                        0x000000000000000000000000000000000000000000000000b17d4af9dbc3acff ,
+                        0xffffffffffffffffffffffffffffffffffffffffdbc3acffb17d4af900000000 ,
+                        0x000000000000000000000000000000000000000000000000b17d4adccdab8af7 ,
+                        0xffffffffffffffffffffffffffffffffffffffffcdab8bf7b17d4ade00000000 ,
+                        0x000000000000000000000000000000000000000000000000b17d4a83b17e4bfd ,
+                        0xebded1ffffffffffffffffffffffffffebded1ffb17e4bfdb17d4a8000000000 ,
+                        0x000000000000000000000000000000000000000000000000b17d4a0ab17d4ac5 ,
+                        0xb27f4cfccdab8bf6dbc3abffcdab8bf6b27f4cfcb17d4ac5b17d4a0a00000000 ,
+                        0x00000000000000000000000000000000000000000000000000000000b17d4a09 ,
+                        0xb17d4a81b17d4adcb17d4af9b17d4adcb17d4a81b17d4a090000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000
+                    End
+
+                    LayoutCachedLeft =2520
+                    LayoutCachedTop =2520
+                    LayoutCachedWidth =4796
+                    LayoutCachedHeight =3096
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =2460
+                    Top =3420
+                    Width =2280
+                    TabIndex =3
+                    Name ="Command5"
+                    Caption ="Find Next"
+                    OnClickEmMacro = Begin
+                        Version =196611
+                        ColumnsShown =8
+                        Begin
+                            Action ="FindNext"
+                        End
+                        Begin
+                            Comment ="_AXL:<?xml version=\"1.0\" encoding=\"UTF-16\" standalone=\"no\"?>\015\012<UserI"
+                                "nterfaceMacro For=\"Command5\" xmlns=\"http://schemas.microsoft.com/office/acces"
+                                "sservices/2009/11/application\"><Statements><Action Name=\"FindNextRecord\"/></S"
+                                "tatements></UserInterfaceMacro>"
+                        End
+                    End
+
+                    LayoutCachedLeft =2460
+                    LayoutCachedTop =3420
+                    LayoutCachedWidth =4740
+                    LayoutCachedHeight =3780
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+' See "frmTest1.cls"

@@ -1,0 +1,22 @@
+﻿{
+  "Info": {
+    "Class": "clsDbDocument",
+    "Description": "Database Documents Properties (DAO)"
+  },
+  "Items": {
+    "Databases": {
+      "SummaryInfo": {
+        "Title": {
+          "Type": 10,
+          "Value": "Database"
+        }
+      },
+      "UserDefined": {
+        "ReplicateProject": {
+          "Type": 1,
+          "Value": true
+        }
+      }
+    }
+  }
+}
