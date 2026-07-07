@@ -14,12 +14,15 @@ Private Sub Form_Load()
 End Sub
 
 Private Sub cmdStart_Click()
-    If Not m_Running Then
-        m_StartTick = Timer
-        m_Running = True
-        Me.TimerInterval = 50
-        SetButtonStates
+    If m_Running Then
+        RefreshDisplay
+        Exit Sub
     End If
+
+    m_StartTick = Timer
+    m_Running = True
+    Me.TimerInterval = 50
+    SetButtonStates
 End Sub
 
 Private Sub cmdStop_Click()
@@ -27,7 +30,7 @@ Private Sub cmdStop_Click()
         m_Elapsed = m_Elapsed + ElapsedSinceStart()
         m_Running = False
         Me.TimerInterval = 0
-        UpdateDisplay
+        RefreshDisplay
         SetButtonStates
     End If
 End Sub
@@ -36,7 +39,7 @@ Private Sub cmdReset_Click()
     m_Elapsed = 0
     m_Running = False
     Me.TimerInterval = 0
-    UpdateDisplay
+    RefreshDisplay
     SetButtonStates
 End Sub
 
@@ -48,8 +51,13 @@ Private Sub ResetStopwatch()
     m_Elapsed = 0
     m_Running = False
     Me.TimerInterval = 0
-    Me.txtTime = "00:00.00"
+    Me.lblTime.Caption = "00:00.00"
     SetButtonStates
+End Sub
+
+Private Sub RefreshDisplay()
+    UpdateDisplay
+    Me.Repaint
 End Sub
 
 Private Sub UpdateDisplay()
@@ -61,7 +69,7 @@ Private Sub UpdateDisplay()
         total = m_Elapsed
     End If
 
-    Me.txtTime = FormatElapsed(total)
+    Me.lblTime.Caption = FormatElapsed(total)
 End Sub
 
 Private Function ElapsedSinceStart() As Double

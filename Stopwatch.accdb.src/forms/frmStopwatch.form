@@ -131,20 +131,16 @@ Begin Form
                     LayoutCachedWidth =3720
                     LayoutCachedHeight =2760
                 End
-                Begin TextBox
-                    Locked = NotDefault
-                    TabStop = NotDefault
+                Begin Label
                     OverlapFlags =215
                     TextAlign =2
-                    IMESentenceMode =3
                     Left =600
                     Top =1140
                     Width =3000
                     Height =1440
                     FontSize =42
-                    Name ="txtTime"
-                    DefaultValue ="00:00.00"
-
+                    Name ="lblTime"
+                    Caption ="00:00.00"
                     LayoutCachedLeft =600
                     LayoutCachedTop =1140
                     LayoutCachedWidth =3600
@@ -157,7 +153,6 @@ Begin Form
                     Width =1080
                     Height =720
                     FontSize =12
-                    TabIndex =1
                     Name ="cmdStart"
                     Caption ="START"
                     OnClick ="[Event Procedure]"
@@ -175,7 +170,7 @@ Begin Form
                     Width =1080
                     Height =720
                     FontSize =12
-                    TabIndex =2
+                    TabIndex =1
                     Name ="cmdStop"
                     Caption ="STOP"
                     OnClick ="[Event Procedure]"
@@ -193,7 +188,7 @@ Begin Form
                     Width =1080
                     Height =720
                     FontSize =12
-                    TabIndex =3
+                    TabIndex =2
                     Name ="cmdReset"
                     Caption ="RESET"
                     OnClick ="[Event Procedure]"
