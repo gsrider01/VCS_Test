@@ -92,7 +92,8 @@ Begin Form
             AutoHeight =1
             AlternateBackThemeColorIndex =1
             AlternateBackShade =95.0
-            BackThemeColorIndex =1
+            BackThemeColorIndex =9
+            BackTint =60.0
             Begin
                 Begin TextBox
                     OverlapFlags =85
@@ -153,8 +154,8 @@ Begin Form
                 End
                 Begin CommandButton
                     OverlapFlags =85
-                    Left =2520
-                    Top =2520
+                    Left =4500
+                    Top =2220
                     Width =2276
                     Height =576
                     TabIndex =2
@@ -199,15 +200,15 @@ Begin Form
                         0x0000000000000000
                     End
 
-                    LayoutCachedLeft =2520
-                    LayoutCachedTop =2520
-                    LayoutCachedWidth =4796
-                    LayoutCachedHeight =3096
+                    LayoutCachedLeft =4500
+                    LayoutCachedTop =2220
+                    LayoutCachedWidth =6776
+                    LayoutCachedHeight =2796
                 End
                 Begin CommandButton
                     OverlapFlags =85
-                    Left =2460
-                    Top =3420
+                    Left =1560
+                    Top =2340
                     Width =2280
                     TabIndex =3
                     Name ="Command5"
@@ -226,10 +227,10 @@ Begin Form
                         End
                     End
 
-                    LayoutCachedLeft =2460
-                    LayoutCachedTop =3420
-                    LayoutCachedWidth =4740
-                    LayoutCachedHeight =3780
+                    LayoutCachedLeft =1560
+                    LayoutCachedTop =2340
+                    LayoutCachedWidth =3840
+                    LayoutCachedHeight =2700
                 End
             End
         End
